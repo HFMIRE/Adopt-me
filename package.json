@@ -6,6 +6,7 @@
   "scripts": {
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "parser": "@babel/eslint-parser",
     "dev": "parcel src/index.html"
   },
   "author": "HFMIRE",
